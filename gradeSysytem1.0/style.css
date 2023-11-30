@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+ body{
+    background-color: rgb(236, 244, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+div.grade-container{
+    background-color: white;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.116);
+    border-radius: 4px;
+}
+center{
+    width: 100%;
+    height: 100%;
+}
+
+.fh2{
+    /* color: white; */
+    /* background-color: rgb(255, 123, 0); */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    /* background-color: rgb(30, 255, 0); */
+    width: 100%;
+    height: 10%;
+    margin-top: 14px;
+    text-transform: uppercase;
+    color: orange;
+}
+
+
+form{
+    color: white;
+    width: 90%;
+    /* background-color: orange; */
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5px;
+    
+}
+form div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0px;
+}
+
+form div label{
+    /* background-color: blue; */
+    width: 15%;
+    display: flex;
+    align-items: center;
+    color: rgba(128, 0, 128, 0.699);
+    /* justify-content: center; */
+    /* text-transform: capitalize; */
+}
+
+/* #form1{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 0 0  100px 100px;
+} */
+
+div span{
+    background-color: rgba(160, 114, 160, 0.322);
+    padding: 5px;
+    border-radius: 7px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    color: rgba(128, 0, 128, 0.699);
+    font-weight: 500;
+}
+
+/* label{
+    color: rgb(0, 0, 0);
+    font-weight: bold; 
+} */
+input{
+    width: 85%;
+    height: 31px;
+    border-radius: 8px;
+    /* margin-top: 10px; */
+    border: 1px solid rgba(153, 63, 153, 0.350);
+    padding-left: 1rem;
+    outline: none;
+    background-color: transparent;
+    border-radius: 4px;
+}
+input:focus{
+    border: 1px solid orange;
+}
+
+/* .submit{
+    background-color: rgb(244, 101, 17);
+    color: black;
+    font-weight: bold;
+} */
+
+/* .submit:hover{
+    background-color: rgb(255, 111, 0)(255, 157, 0);
+    border-bottom: 2px white solid;
+
+} */
+
+div.calc-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px 0px;
+}
+div.calc-btn input{
+    width: 23rem;
+    height: 32px;
+    color: orange;
+}
+div.calc-btn input:hover{
+    cursor: pointer;
+    background-color: rgba(255, 166, 0, 0.466);
+    border: none;
+    box-shadow: 0px 0px 8px rgba(160, 114, 160, 0.322);
+    color: rgba(128, 0, 128, 0.699);
+    font-weight: 500;
+}
+
+/* @media(min-width:1200px){
+    h3{
+        margin: 6px 790px;
+    }
+} */
+@media (max-width: 988px) {
+    input{
+        width: 70%;
+    }
+    form div label{
+        width: 30%;
+        
+    }
+}
+@media (max-width: 540px) {
+     input{
+        width: 60%;
+    }
+    
+    .fh2{
+        font-size: 20px;
+    }
+    form div label{
+        font-size: 14px;
+        width: 40%;
+    }
+    div span{
+        font-size: 12px;
+    }
+}

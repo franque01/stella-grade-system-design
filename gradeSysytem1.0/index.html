@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="grade-container">
+        
+        <h2 class="fh2">
+            Welcome to the grade calculation system
+        </h2>
+        
+        <center>
+            <form class="form" id="form1" method="POST" action="display.php">
+                <div>
+                    <label  class="form">Your Name</label>
+                    <input  class="form" type="text" placeholder=" Enter Your Name" name="Name">
+                </div>
+                <div>
+                    <label  class="form">Maths Score</label>
+                    <input  class="form" type="text" placeholder="Enter Your Maths score"  name="maths">
+                </div>
+                <div>
+                    <label  class="form">English Score</label>
+                    <input   class="form" type="text" placeholder="Enter Your English score"  name="english">
+                </div>
+                <div>
+                    <label  class="form">Science Score</label>
+                    <input  class="form" type="text" placeholder="Enter Your Scienc score"  name="science">
+                </div>
+                <div>
+                    <label  class="form">Social Score</label>
+                    <input  class="form" type="text" placeholder="Enter Your Social score"  name="social">
+                </div>
+                <div class="other"><span>ADD GRADE SCORE FOR OTHER SUBJECTS</span></div>
+                <div>
+                    <label   class="form">Other sujects</label>
+                    <input  class="form" type="text" placeholder="Other subjets1" name="subjets1">
+                </div>
+                <div>
+                    <label   class="form">Other sujects</label>
+                    <input  class="form" type="text" placeholder="Other subjets2" name="subjets2">
+                </div>
+                <div>
+                    <label  class="form">Other sujects</label>
+                    <input  class="form" type="text" placeholder="Other subjets3" name="subjets3">
+                </div>
+                <div>
+                    <label  class="form">Other sujects</label>
+                    <input  class="form" type="text" placeholder="Other subjets 4" name="subjets4">
+                </div>
+                <div class="calc-btn">
+                    <input type="submit" value="CALCULATE" class="submit" name="submit">
+                </div>
+            </form>  
+        </center>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

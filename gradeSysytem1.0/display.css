@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(7, 119, 171);
+}
+
+.p1{
+    background-color: black;
+    color: white;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-top: 2px white solid ;
+}
+
+
+.p2{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-left: 2px white solid ;
+}
+
+
+.p3{
+    background-color: black;
+    color: white;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-right: 2px white solid ;
+}
+
+
+.p4{
+    background-color: black;
+    color: white;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px white solid ;
+}
+
+
+.p5{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+    border: solid rgb(255, 196, 0) 2px;
+}
+
+.p5:hover{
+    background-color: white;
+    color: black;
+}
+
+span{
+    color: red;
+    font-size: x-large;
+}
+
+ 
